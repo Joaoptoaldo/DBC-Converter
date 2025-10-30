@@ -40,3 +40,10 @@ Parâmetros opcionais:
         ├── convert_dbc_to_csv.py   # Script principal
         ├── exemplo/                # (Opcional) Pasta com arquivos de teste
         └── README.md
+
+
+## Observações importantes
+
+- Esse script faz uma leitura básica, ideal para exploração rápida dos dados.
+
+- Para decodificação precisa com dicionário de variáveis, use ferramentas como dbfread, pandas, ou read_dbc (do GitHub “datasus-db”).
