@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
 # Uso: python probe_dbc.py entrada.DBC
-# ferramenta de diagnóstico simples para inspecionar um arquivo binário
+# ferramenta de diagnóstico para inspecionar um arquivo binário
 
 import sys, os
 p = sys.argv[1] if len(sys.argv) > 1 else "entrada.DBC"
